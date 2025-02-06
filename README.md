@@ -30,3 +30,12 @@ import os
 ...
 os.environ['OPENAI_API_KEY']
 ```
+
+## Environment
+Here is the template for the `.env` file:
+```
+OPENAI_API_KEY=<API Key from openai>
+LANGCHAIN_API_KEY=<API Key from langsmith>
+LANGCHAIN_TRACING_V2=true
+LANGCHAIN_PROJECT=<name that will show up in the langsmith dashboard>
+```
