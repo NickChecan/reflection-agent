@@ -1,6 +1,20 @@
+# reflection-agent
 
+`Chains` concept applied to this example repository:
+```mermaid
+flowchart TD
+    A[__start__] -->B(Generate)
+    B --> C(should continue)
+    C -->|reflect| D(reflect)
+    D -->B
+    C -->|__end__| E[__end__]
+```
+- generation_chain
+- reflect_chain
 
-Ininitalize project with `poetry`:
+## Utilities
+
+Initialize project with `poetry`:
 ```sh
 poetry init
 ```
